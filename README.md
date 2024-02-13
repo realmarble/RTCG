@@ -47,7 +47,7 @@ Here's how to set it up
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/realmarble/RTCG.git
    ```
 2. Install NPM packages
    ```sh
