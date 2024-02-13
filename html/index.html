@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Random Touhou Character Generator</a></li>
+            <li><a href="/api">API</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="main">
+            <h1>Random Touhou Character Generator</h1>
+            <fieldset>
+                <!-- <input id="win" checked="checked" type="checkbox">Include Windows Characters
+                <input id="pc98" type="checkbox">Include PC98 Characters
+                <input id="midboss" type="checkbox">Include Midbosses
+                <input id="male" type="checkbox">Include Male Characters
+                <input id="nongame" type="checkbox">Include Non-Game Characters
+                <input id="sidegame" type="checkbox">Include Side Game Characters
+                <input id="nonhuman" checked="checked" type="checkbox">Include Non-Humanoid Characters -->
+                <br><button onclick="getChar()">Pick one~</button>
+            </fieldset>
+            <div id="char">
+                <h3 id="name"></h3>
+                <img id="image" alt="Character Image" height="700px" style="display: none;">
+                <h2 id="text"></h2>
+            </div>
+        </div>
+    </main>
+    <script src="/public/js/main.js"></script>
+</body>
+</html>

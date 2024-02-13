@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Random Touhou Character Generator</a></li>
+            <li><a href="/api">API</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    <main class="styled">
+        <h1>Bless This Mess</h1>
+        <p>created in honor of the <a href="https://4taba.net/img/ni/139/1499886962635.html">Random 2hu Generator</a>, which sadly doesn't function as well as it does today, as well as to practice some js and a framework different than Express.js, <a href="https://fastify.dev/">fastify</a>.</p>
+        <h2>The Stack</h2>
+        <p>this was made using:</p>
+        <ul>
+            <li>Node.js</li>
+            <li><a href="https://fastify.dev/">fastify</a> (as the web server)</li>
+            <li><a href="https://pptr.dev/">Puppeteer</a> (for scraping data)</li>
+        </ul>
+        <p>and that's it.</p>
+        <div class="charwindow">
+            <h3>Currently Serving:</h3>
+            <p id="count"></p>
+            <p>characters</p>
+        </div>
+    </main>
+<script src="/public/js/main.js"></script>
+<script>getCount()</script>
+</body>
+</html>

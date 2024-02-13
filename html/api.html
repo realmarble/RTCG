@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Random Touhou Character Generator</a></li>
+            <li><a href="/api">API</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    <main class="styled">
+        <h1>API Endpoints</h1>
+        <ul class="apilist">
+            <li>
+                <div>
+                    <a href="/api/random"><h4>/api/random</h4></a>
+                    <span class="badge get">GET</span>
+                    <p>returns a random touhou character.</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href="/api/count"><h4>/api/count</h4></a>
+                    <span class="badge get">GET</span>
+                    <p>returns the amount of characters available.</p>
+                </div>
+            </li>
+        </ul>
+    </main>
+<script src="/public/js/main.js"></script>
+</body>
+</html>
